@@ -22,10 +22,10 @@ var app = {
         alert(title ? (title + ": " + message) : message);
     }
     },
-    
+
     renderHomeView: function() {
         var html =
-                "<div class='header'><h1>Home</h1></div>" +
+                "<div class='header'><h1>Homer</h1></div>" +
                 "<div class='search-view'>" +
                 "<input class='search-key'/>" +
                 "<ul class='employee-list'></ul>" +
